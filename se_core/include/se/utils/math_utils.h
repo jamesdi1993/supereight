@@ -34,6 +34,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <cmath>
 #include <Eigen/Dense>
 
+#define SOPHUS_USE_BASIC_LOGGING
 #define SOPHUS_DISABLE_ENSURES
 /* 
  * When compiling in debug mode Eigen compilation fails 

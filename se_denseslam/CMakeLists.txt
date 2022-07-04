@@ -8,6 +8,8 @@ endif(APPLE)
 
 find_package(Eigen3 REQUIRED)
 find_package(Sophus REQUIRED)
+
+#define SOPHUS_USE_BASIC_LOGGING
 if(WITH_OPENMP)
   find_package(OpenMP)
   if(OPENMP_FOUND)
@@ -16,7 +18,6 @@ if(WITH_OPENMP)
 endif()
 
 set(appname ${PROJECT_NAME})
-
 
 # ---- PREPARE COMMON DEPENDENCIES  ------------ 
 set(compile_flags  -Wall -Wextra -Wno-unknown-pragmas)

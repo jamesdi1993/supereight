@@ -9,6 +9,7 @@
 
 #ifndef APPLICATIONWINDOW_H
 #define APPLICATIONWINDOW_H
+#define SOPHUS_USE_BASIC_LOGGING
 
 #include <QMainWindow>
 #include <QSlider>
